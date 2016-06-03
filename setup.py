@@ -21,6 +21,9 @@ setup(
         version = '0.3',
         packages = ["pysproto"],
         description = "python binding for cloudwu's sproto",
+        setup_requires=[
+            'setuptools_cython',
+        ],
         author = "bttscut",
         license = "MIT",
         url="http://github.com/bttscut/pysproto",
